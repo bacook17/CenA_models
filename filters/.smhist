@@ -1,0 +1,9 @@
+X
+!ls
+!more ramp8800.dat
+data ramp8800.dat
+read {x 1 y 2}
+erase limits x y box hist x y
+data ramp8830.dat
+read {x 1 y 2}
+hist x y
